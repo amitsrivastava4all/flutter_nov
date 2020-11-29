@@ -1,0 +1,6 @@
+Maintain Collection of Songs, for our Music Library.
+Add a new song  - create a addSong() function taking String as an argument and return true / false based on it is added or not.
+When you are adding a new song , check this song is not exist already
+Print the all songs function
+Search the song start with A Letter.
+Sort the Songs in Ascending Order
