@@ -1,0 +1,280 @@
+var arr = [10,20,30];
+undefined
+console.dir(arr.sort);
+VM254:1 ƒ sort()arguments: [Exception: TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+    at Function.o (<anonymous>:1:83)]caller: (...)length: 1name: "sort"__proto__: ƒ ()[[Scopes]]: Scopes[0]
+undefined
+var q ;
+undefined
+typeof q;
+"undefined"
+var obj = {id:1001, name:'Ram'};
+undefined
+obj;
+{id: 1001, name: "Ram"}
+obj.id;
+1001
+obj.name;
+"Ram"
+obj = null;
+null
+obj.name;
+VM465:1 Uncaught TypeError: Cannot read property 'name' of null
+    at <anonymous>:1:5
+(anonymous) @ VM465:1
+var obj = {id:1001, name:'Ram'};
+undefined
+typeof obj;
+"object"
+obj instanceof Object;
+true
+typeof Object;
+"function"
+obj;
+{id: 1001, name: "Ram"}
+obj = null;
+null
+typeof obj;
+"object"
+typeof 10/"Amit"
+NaN
+typeof (10/"Amit")
+"number"
+typeof NaN
+"number"
+show();
+function show(){
+console.log("I am Show ",z);
+if(10>2){
+var z = 100;
+}
+console.log("Z is ",z);
+}
+VM923:3 I am Show  undefined
+VM923:7 Z is  100
+undefined
+show();
+function show(){
+console.log("I am Show ",z);
+if(10>2){
+let z = 100;
+}
+console.log("Z is ",z);
+}
+VM934:3 Uncaught ReferenceError: z is not defined
+    at show (<anonymous>:3:26)
+    at <anonymous>:1:1
+show @ VM934:3
+(anonymous) @ VM934:1
+show();
+function show(){
+console.log("I am Show ",z);
+if(10>2){
+z = 100;
+//let z = 100;
+}
+console.log("Z is ",z);
+}
+VM951:3 Uncaught ReferenceError: z is not defined
+    at show (<anonymous>:3:26)
+    at <anonymous>:1:1
+show @ VM951:3
+(anonymous) @ VM951:1
+show();
+function show(){
+console.log("I am Show ",t);
+if(10>2){
+t = 100;
+//let z = 100;
+}
+console.log("T is ",t);
+}
+VM986:3 Uncaught ReferenceError: t is not defined
+    at show (<anonymous>:3:26)
+    at <anonymous>:1:1
+show @ VM986:3
+(anonymous) @ VM986:1
+show();
+function show(){
+
+if(10>2){
+t = 100;
+console.log("I am Show ",t);
+//let z = 100;
+}
+console.log("T is ",t);
+}
+VM996:6 I am Show  100
+VM996:9 T is  100
+undefined
+show();
+function show(){
+
+
+if(10>2){
+t = 100;
+console.log("I am Show ",t);
+//let z = 100;
+}
+console.log("T is ",t);
+}
+VM1011:7 I am Show  100
+VM1011:10 T is  100
+undefined
+t;
+100
+t++;
+100
+t;
+101
+var name ;
+function disp(){
+var name = "Test";
+console.log('Name is ',name);
+}
+undefined
+disp();
+VM1243:4 Name is  Test
+undefined
+var name ;
+function disp(){
+var name = "Test";
+console.log('Name is ',window.name);
+}
+undefined
+disp();
+VM1299:4 Name is  
+undefined
+var d = 1000;
+undefined
+var add = function adder(){
+    console.log("I am Adder ");
+}
+undefined
+adder;
+VM1479:1 Uncaught ReferenceError: adder is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1479:1
+add;
+ƒ adder(){
+    console.log("I am Adder ");
+}
+typeof add;
+"function"
+add();
+VM1461:2 I am Adder 
+undefined
+console.dir(add);
+VM1594:1 ƒ adder()arguments: nullcaller: nulllength: 0name: "adder"prototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM1461:1[[Scopes]]: Scopes[1]
+undefined
+add.name;
+"adder"
+show;
+ƒ show(){
+
+
+if(10>2){
+t = 100;
+console.log("I am Show ",t);
+//let z = 100;
+}
+console.log("T is ",t);
+}
+add;
+ƒ adder(){
+    console.log("I am Adder ");
+}
+window.show;
+ƒ show(){
+
+
+if(10>2){
+t = 100;
+console.log("I am Show ",t);
+//let z = 100;
+}
+console.log("T is ",t);
+}
+add;
+ƒ adder(){
+    console.log("I am Adder ");
+}
+window.add
+ƒ adder(){
+    console.log("I am Adder ");
+}
+window.add.name;
+"adder"
+adder;
+VM1797:1 Uncaught ReferenceError: adder is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1797:1
+add;
+ƒ adder(){
+    console.log("I am Adder ");
+}
+add.name;
+"adder"
+console.dir(add);
+VM1892:1 ƒ adder()arguments: nullcaller: nulllength: 0name: "adder"prototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM1461:1[[Scopes]]: Scopes[1]
+undefined
+var d = [10,20];
+undefined
+var e = function(){}
+undefined
+var e = function(){}
+undefined
+e.name;
+"e"
+var f = function r(){}
+undefined
+myFunction();
+var myFunction = function (){
+console.log("I am Anonymous Function ");
+}
+VM2238:1 Uncaught TypeError: myFunction is not a function
+    at <anonymous>:1:1
+(anonymous) @ VM2238:1
+var e = 1000;
+undefined
+e();
+VM2282:1 Uncaught TypeError: e is not a function
+    at <anonymous>:1:1
+(anonymous) @ VM2282:1
+console.log(" i am Here ",g1);
+var g1 = 1000;
+VM2388:1  i am Here  undefined
+undefined
+(function(){
+console.log("I am a Function Expression ");
+})();
+VM2472:2 I am a Function Expression 
+undefined
+var result = (function(x,y){
+
+var add = function(){
+return x + y;
+}
+var sub = function(){
+return x - y;
+}
+
+var mul = function(){
+return x * y;
+}
+return [add, sub, mul];
+}
+)(100,200);
+undefined
+result;
+(3) [ƒ, ƒ, ƒ]
+result[0];
+ƒ (){
+return x + y;
+}
+result[0]();
+300
+result[1]();
+-100
+result[2]();
+20000
