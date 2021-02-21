@@ -1,0 +1,3 @@
+{
+	"x": "[{\"StoreID\":2,\"LSTDESC\":\"St. George, SC\",\"LSTCITY\":\"SAINT GEORGE\",\"LSTSTATE\":\"SC\",\"LSTCTRY\":\"USA\",\"LSTZIP\":\"29477\",\"Latitude\":33.1852791,\"Longitude\":-80.5736474},{\"StoreID\":5,\"LSTDESC\":\"HINESVILLE, GA\",\"LSTCITY\":\"HINESVILLE\",\"LSTSTATE\":\"GA\",\"LSTCTRY\":\"USA\",\"LSTZIP\":\"31313\",\"Latitude\":31.8426935,\"Longitude\":-81.6021207},{\"StoreID\":8,\"LSTDESC\":\"WAYCROSS, GA\",\"LSTCITY\":\"WAYCROSS\",\"LSTSTATE\":\"GA\",\"LSTCTRY\":\"USA\",\"LSTZIP\":\"31501\",\"Latitude\":31.2080086,\"Longitude\":-82.3338472}]"
+}
